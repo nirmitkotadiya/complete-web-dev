@@ -1,0 +1,144 @@
+
+// What is the Internet.
+=> Interconnected network of computers(systems) around th world.
+
+client  => ISP => DNS (Domain Name System)
+
+nslookup.io 
+
+// What is Web Development?
+=> Building websites for the internet 
+
+amazon.in -> request -> amazon server -> response -> html + css + js -> browser 
+
+html => structure
+css  => style 
+js   => functionality 
+
+// What will we learn? 
+Frontend : HTML , CSS , Javascript , Bootstrap , Tailwind 
+Backend : Express , NodeJS 
+Database : SQL , MongoDB 
++ React 
+
+
+// Prerequisites 
+Laptop / Computer 
+Internet Connection 
+Chrome(Browser)
+Visual Studio Code(Editor)
+
+// What is HTML? 
+HyperText Markup Language -> structure & formatting
+
+// HTML Elements 
+Standard Elements that browser recognizes:
+
+Paragraph   <p> </p> 
+Heading     <h1> </h1>
+
+
+// HTML Tags 
+<p> This is a Paragraph </p> 
+<p> -> opening tag 
+</p> -> closing tag 
+
+This is a Paragraph => Content 
+<p> This is a Paragraph </p> => Element
+
+// Hello World in HTML.
+
+// Paragraph Element
+This <p> HTML element represents a paragraph.
+
+// Heading Elements 
+The <h1> to <h6> HTML elements represent six levels of section headings. 
+<h1> is the highest section level and <h6> is the lowest.
+
+<!-- Practice Qs 1 -->
+
+// HTML Boilerplate
+This is the standard format or skeleton of writing HTML Code.
+
+<!DOCTYPE html>
+<html>     // root 
+  <head>   // metadata => data about data 
+    <title>My First Page</title>   //title 
+  </head>
+  <body> 
+    <p>hello world</p>
+  </body>
+</html>
+
+// Lists in HTML 
+Unordered List 
+    <ul>
+        <li>Bread</li>
+        <li>Butter</li>
+        <li>Jam</li>
+    </ul>
+
+Unordered List 
+    <ol type="A">
+      <li>Bread</li>
+      <li>Butter</li>
+      <li>Jam</li>
+    </ol>
+// type = 1 A a I i 
+
+
+// HTML Attributes 
+Attributes are used to add more information to the tag. 
+
+<html lang="en">  ---> lang="en"  => attribute = lang , value = en 
+<ol type="A">     ---> type="A"   => attribute = type , value = A 
+
+// Anchor Element 
+Used to add links to your page 
+    <a href="https://google.com">Google</a>
+
+href = HyperText Refernce
+
+absolute link => internet 
+relative link => file 
+
+// Image Element
+Used to add image to your page 
+    <img src="image.png" alt="Random Image" />
+relative image
+absolute image 
+
+// Practice Qs 2
+
+// Br Tag 
+Used to add next line(line breaks) to your page 
+<br>
+
+// Bold, Italic & Underline Tags 
+Used to highlight text in your page
+<b>Bold</b>
+<i>Italic</i>
+<u>Underline</u>
+
+// Comments in HTML 
+This is part of code that should not be parsed. 
+<!-- This is an HTML Comment -->
+
+// Resource : MDN 
+
+// HTML is not Case Sensitive 
+<html> = <HTML>
+<p> = <P>
+<head> = <HEAD>
+<body> = <BODY>
+
+// Practice Qs 3 
+create a Portfolio Page.
+
+// Reading about these topics on mdn:
+- Hr Tag in HTML
+- HTML Entities
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr
+
+https://developer.mozilla.org/en-US/docs/Glossary/Entity
