@@ -1,0 +1,26 @@
+// Inline vs Block 
+
+Block Elements 
+- Takes up the full-width available (whole block)
+- Start from new line 
+
+
+// Inline Elements 
+- Takes up only necessary width 
+- Don't start from new line 
+
+Am I Inline or Block? 
+- Heading Element    => block
+- Paragraph Element  => block
+- Anchor Element     => Inline
+- Image Element      => Inline
+
+// Div Element
+- Div is a container used to hold other HTML elements or group elements together.
+- It is block Element
+
+// Span Element
+- Span is also a generic container used to hold other HTML elements or group elements together
+- It is an Inline Element
+
+// Hr Tag
