@@ -24,3 +24,43 @@ Am I Inline or Block?
 - It is an Inline Element
 
 // Hr Tag
+Horizontal Rule Element
+<hr/>
+
+// Sub & Sup Tag
+- SuperScript SubScript
+a2   => a<sup>2</sup>
+H20  => H<sub>2</sub>0
+
+// Semantic Markup 
+it is the markup that relates to the meaning of content.
+
+Semantic        => <h1> <p> <img> <header> <footer>... 
+Non-Semantic    => <div> <span> ...
+
+1. meaningful / layout -> structured
+2. SEO(Search Engine Optimization) Friendly
+3. Readable + screen readers => UX improve
+
+<header> </header>
+<main> </main>
+<footer> </footer>
+<nav> </nav>
+<article> </article>
+<section> </section>
+<aside> </aside>
+
+// HTML Entities 
+- An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a semicolon (;).
+
+- used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces).
+
+- can also use in place of characters that are difficult to type with a standard keyboard.
+
+- bwoser interprets them & renders correct character.
+
+&nbsp;  => non breaking space
+&ls;    => < less than
+&gt;    => > greater than 
+&quot;  => " 
+&amp;   => &
