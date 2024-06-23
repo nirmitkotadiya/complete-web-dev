@@ -63,4 +63,57 @@ Non-Semantic    => <div> <span> ...
 &ls;    => < less than
 &gt;    => > greater than 
 &quot;  => " 
-&amp;   => &
+&amp;   => & 
+
+// Emmet 
+- Emmet is a plugin for many popular text editors which greatly improves HTML & CSS workflow.
+
+visit https://docs.emmet.io/cheat-sheet/
+(This is not Promotion, just for learning purpose)
+
+// parent>child>grandchild
+=> main>p>ul>li
+
+<main>
+    <p>
+        <ul>
+            <li></li>
+        </ul>
+    </p>
+</main>
+- nesting structure
+
+// sibling 
+=> div+p+img
+
+<div></div>
+<p></p>
+<img src="" alt="">
+
+// Multiplication
+=> ul>li*5
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+
+// Understanding HTML 5
+- The term HTML5 is essentially a buzzword that refers to a set of modern web technologies.This includes the HTML Living Standard,along with JavaScript APIs to enhance storage, multimedia, and hardware access.
+
+// How HTML works?
+- HTML Standard     // Living Standard
+- HTML Standard is a documet that tells to the browser how HTML should work.
+
+html code => browser => HTML Standard DOM(Document Object Model) => Display on Screen
+
+// video tag
+    <video src=""></video>
+- It is Semantic Tag.
+
+Copyright entity name : &copy;
+Trademark entity name : &reg;
