@@ -1,5 +1,12 @@
 # complete-web-dev
 
+## Table of Contents
+- [HTML Level 1](#html-level-1)
+- [HTML Level 2](#html-level-2)
+- [HTML Level 3](#html-level-3)
+- [Resources](#resources)
+
+---
 # HTML Learning Guide
 
 ## HTML Level 1
