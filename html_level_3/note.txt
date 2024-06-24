@@ -1,0 +1,31 @@
+// Tables in HTML 
+- Tables are used to represent real life table data.
+- Tables are used to represent data in rows and columns.
+
+Name | Roll Number 
+---- | ------------
+A    | 101
+B    | 102
+C    | 103
+
+// Syntax
+<table>
+  <caption>Table Caption</caption>
+    <tr>
+        <th>Heading 1</th>
+        <th>Heading 2</th>
+    </tr>
+    <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+    </tr>
+</table>
+
+tr - Table Row 
+th - Table Heading
+td - Table Data
+
+thead - Table Header
+tbody - Table Body
+tfoot - Table Footer
+
