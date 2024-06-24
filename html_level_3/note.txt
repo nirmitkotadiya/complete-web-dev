@@ -29,3 +29,104 @@ thead - Table Header
 tbody - Table Body
 tfoot - Table Footer
 
+// Colspan & Rowspan Attributes 
+- used to create cells which spans over multiple rows and columns 
+
+rowspan = " "
+colspan = " "
+
+// Practice Qs 7
+
+// Forms in HTML 
+Forms are used to collect data from the user 
+
+<form>
+form content
+</form>
+
+// Action Attributes 
+- Action Attribute is used to define what action needs to be performed when a form is submitted or where the form data should be sent.
+
+<form action="/action.php">
+<form action="/action">
+
+// Form Elements 
+Input 
+- used to create multiple form controls 
+- there are multiple types of inputs that can be created using type attribute 
+
+// type Attribute
+<input />
+<input type="text" />
+<input type="password" />
+<input type="number" />
+<input type="time" />
+<input type="color"/>
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+// placeholder attribute
+<input type="text" placeholder="Enter Name"/>
+
+// label 
+- label element represents a caption for an item in a user interface 
+
+<label>
+Enter your username:
+<input type="text" placeholder="Enter Name" />
+</label>
+
+// Label Classical Approach 
+<label for="username"> Username </label>
+<input type="text" id="username" placeholder="Enter Name" />
+
+// Button Element
+<button>submit</submit>
+
+<button type="submit">submit btn</button>
+<button type="button">button btn</button>
+<button type="reset">Reset btn</button>
+
+// Button using input 
+<input type="button" value="click me" />
+<input type="submit" />
+
+// Name Attribute 
+- Name of the form control. submitted with the form as part of a name/value pair.
+
+<input type="text" id="username" placeholder="Enter Name" name="username" />
+
+// Practice Qs 8
+
+// Checkbox 
+<input type="checkbox" name="age" id="age" checked />
+<label for="age">I am 18+</label>
+
+<input type="checkbox" name="subjects" id="maths" value="maths" />
+<label for="maths">maths</label>
+    
+
+// Radio Button
+<input type="radio" name="fruit" id="apple" value="apple">
+<label for="apple">Apple</label>
+
+http://127.0.0.1:5500/html_level_3/chcekbox.html?age=on&fruit=apple
+
+// Select Element
+Dropdown 
+
+<select name="profession" id="profession">
+<option value="student">Student</option>
+<option value="dev">Developer</option>
+</select>
+
+
+// Range 
+<input type="range" name="vol" min="0" max="100" id="volume" />
+<label for="volume"></label>
+
+// Text Area 
+<label for="feedback">Please provide your valuable feedback : </label>
+<textarea name="feedback" id="feedback"></textarea>
+      
+// Practice Qs 9
