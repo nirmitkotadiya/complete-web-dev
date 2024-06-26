@@ -1,0 +1,27 @@
+h1 {
+  /* color: blue; */
+  /* background-color: gray; */
+  text-align: center;
+  text-decoration: line-through;
+  text-decoration-color: pink;
+  font-family: avant garde, didot, sans-serif;
+}
+p {
+  /* color: red; */
+  /* text-align: right; */
+  /* background-color: cornsilk; */
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-family: impact;
+}
+button {
+  color: gold;
+  background-color: black;
+  /* background: black; */
+}
+h2 {
+  font-weight: normal;
+  text-decoration: wavy red underline;
+}

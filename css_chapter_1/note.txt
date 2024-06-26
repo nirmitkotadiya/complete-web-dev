@@ -1,0 +1,98 @@
+// CSS => Cascading Style Sheets
+
+- It is a language that is used to describe the style of a document.
+
+// Basic Format of CSS
+
+selector {
+    property: value;
+}
+
+h1{
+    color: red;
+}
+
+// refer this link for more details:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+// How to Include Styles ?
+
+1. Inline CSS
+- using style attribute in HTML elements
+- use only for one element
+
+2. Internal CSS
+- using <style> tag
+- use only for one page
+
+3. External CSS
+- using <link> tag
+- use for multiple pages
+
+// Color Property 
+- foreground color property
+color: red;
+color: #ff0000;
+
+// Background Color Property
+- background color property
+background-color: yellow;
+background-color: #ffff00;
+
+// Practice Qs 1
+
+// Color Systems 
+- Named Colors      => red, green, blue etc
+
+Each browser has its own set of 140 colors
+
+- RGB Colors => rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255)
+
+- Hexadecimal Colors => #ff0000, #00ff00, #0000ff
+
+// Hexadecimal or Hex Color
+
+Letters : 0-9, A-F
+#ff0000 => red
+#00ff00 => green
+#0000ff => blue
+
+// Practice Qs 
+rgb(255, 0, 0) => white
+yellow => rgb(255, 255, 0) => #ffff00
+blue => rgb(0, 0, 255) => #0000ff
+
+// Text Properties
+- text-align: center, left/start, right/end, justify   
+- font-weight: bold, normal, 100,bolder, lighter
+- text-decoration: underline, line-through, overline
+- line-height: 1.5, 2, 2.5 , normal
+- letter-spacing: 1px, 2px, 3px , normal
+- font-size: 12px, 14px, 16px
+
+// relative to parent
+
+// Font-size units in CSS
+Absolute       Relative 
+  px             %
+  pt             em
+  pc             rem
+  cm             ch
+  mm             vh 
+  in             vw + many more 
+
+// Pixels (px) 
+- most commonly used absoult unit 
+- 96px = 1 inch 
+- not suitable for responsive website
+- font-size : 50px;
+
+// font-family
+- specifies a prioritized list of one or more font family names
+
+font-family: arial;
+
+// refer this link for more details:
+https://www.cssfontstack.com/
+
+// Practice Qs 
