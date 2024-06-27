@@ -1,0 +1,32 @@
+// Selectors 
+
+Universal Selector
+- To select everything in a document
+*{
+    property : value;
+}
+
+Element Selector
+- select all elements of the same page
+h1{
+    property:value;
+}
+
+ID Selector
+- select an element based on the value of the element's id attribute
+- unique id 
+
+#myId{
+    property:value;
+}
+
+Class Selector
+- Selects an element based on their class attribute 
+
+.myClass{
+    property:value;
+}
+
+// Practice Qs
+
+// Descendant Selector
