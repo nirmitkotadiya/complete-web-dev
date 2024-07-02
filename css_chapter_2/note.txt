@@ -30,3 +30,93 @@ Class Selector
 // Practice Qs
 
 // Descendant Selector
+- selects all paragraphs inside div elements
+
+div p{
+    property:value;
+}
+
+// Adjacent Sibling Combinator
+- heading3 that coes immediately after any paragraph
+
+p + h3{
+    property:value;
+}
+
+// Child Combinator
+- selects all buttons which are direct children of spans.
+
+span > button{
+    property:value;
+}
+
+// Attribute Selector
+- Selects elements based on the presence or value of a given attribute
+
+a[href]{
+    property:value;
+}
+
+input[type="text"]{
+    property:value;
+}
+
+// Practice Qs
+-> priority of selectors
+- ID Selector > Class Selector > Element Selector 
+
+// Pseudo Class
+- A Keyword added to a selector that specifies a special state of the selected element(s)
+
+:hover
+:active
+:checked
+:nth-of-type(n)
+ 
+// Pseudo Elements 
+- A keyword added to a selector that lets you style a specific part of the selected element(s).
+
+::first-letter
+::first-line
+::selection
+
+// CSS: Cascading StyleSheets
+- What is cascade in CSS?
+-> The CSS cascadr algorithm's job is to select CSS decorations in order to determine the correct values for CSS Properties.
+
+same element -> last Properties 
+
+// Selector Specificity 
+- What is Specificity
+- Specificity is an algorithm that calculates the weight that is applied to a given CSS declaration.
+
+=> 1. id 
+=> 2. class, attribute & Pseudo-class 
+=> 3. element & Pseudo-element
+
+What to remember?
+
+1. id > class > element 
+2. more selector > less selector 
+3. if Specificity same =>  Cascading
+
+// Inline Specificity
+- Inline styles are more specific than id 
+
+1. inline Style 
+2. id 
+3. class, attribute & Pseudo-class 
+4. element & Pseudo-element 
+
+// Practice Qs 
+
+// !important 
+- To show the most specific thing in document 
+
+h2{ 
+    background-color : blue !important
+}
+
+// Inheritance in CSS  
+
+

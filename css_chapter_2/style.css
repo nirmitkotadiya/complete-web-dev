@@ -4,7 +4,7 @@
 
 h1,
 h3 {
-  color: #b92b27;
+  color: #b92b27 !important;
 }
 
 #login {
@@ -25,4 +25,83 @@ h3 {
 } */
 div[id="myId"] p {
   color: green;
+}
+
+/* descendant selector */
+p a {
+  color: purple;
+  background-color: yellow;
+}
+
+nav ul li a {
+  color: hotpink;
+}
+nav a {
+  color: rgb(69, 56, 62);
+}
+
+p + h3 {
+  text-decoration: underline;
+}
+
+.upvote + button {
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+
+div > input {
+  background-color: darksalmon;
+}
+
+input[type="text"] {
+  color: red;
+}
+
+input[type="password"] {
+  color: green;
+}
+
+input[type] {
+  background-color: ghostwhite;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+h3:hover {
+  text-decoration: none;
+}
+
+button:active {
+  background-color: hotpink;
+}
+
+p:active {
+  font-weight: bold;
+  color: green;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+  font-weight: bold;
+}
+
+.post:nth-of-type(2n) {
+  background-color: blanchedalmond;
+}
+
+h1::first-letter {
+  color: green;
+}
+
+.para::first-line {
+  background-color: royalblue;
+}
+.para::selection {
+  background-color: rgb(186, 255, 38);
+}
+h3 {
+  color: blue;
 }
