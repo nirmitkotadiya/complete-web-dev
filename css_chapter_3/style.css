@@ -1,0 +1,84 @@
+div {
+  /* height: 150px;
+  width: 500px;
+  background-color: pink;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-left-color: blue;
+  border-left-style: dashed;
+  border-top: 5px dashed blue;
+  padding-top: 10px;
+  margin: 20px; */
+  /* margin-bottom: 25px; */
+
+  /* height: 200px;
+  width: 200px;
+  background-color: greenyellow;
+  margin: 5px;
+  border: 2px solid black;
+  display: inline-block; */
+}
+
+#third {
+  display: none;
+}
+h2 {
+  /* border: 2px solid blue;
+  border-top-right-radius: 200px; */
+  /* display: inline; */
+}
+
+button {
+  /* border: 2px solid black;
+  border-radius: 10px; */
+  /* padding-left: 25px;
+  padding-right: 25px; */
+  /* padding: 25px auto;
+  background-color: yellow; */
+}
+span {
+  /* display: block; */
+  /* background-color: lime;
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px; */
+}
+
+h1 {
+  /* border: 2px solid black;
+  width: 33.33%; */
+}
+
+#outer {
+  /* height: 400px;
+  width: 400px;
+  background-color: pink;
+  border: 2px solid black;
+  font-size: 20px; */
+}
+
+#inner {
+  /* height: 100px;
+  width: 100px;
+  background-color: cornflowerblue; */
+  /* margin-left: 20%; */
+  /* font-size: 0.5em;
+  padding: 10px; */
+}
+button {
+  /* font-size: 50px;
+  border-radius: 15px;
+  border: 5px solid green;
+  padding-left: 1em;
+  padding-right: 1em; */
+}
+
+section {
+  font-size: 15px;
+}
+div {
+  font-size: 2rem;
+}

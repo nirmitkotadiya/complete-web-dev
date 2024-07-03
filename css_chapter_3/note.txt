@@ -1,0 +1,81 @@
+// Box Model in CSS 
+- height
+- width 
+- border 
+- padding 
+- margin 
+
+// Height 
+- By default , it sets the content area height of the element.
+
+// Border 
+- border-width 
+- border-style 
+- border-color
+
+// Border Shorthand 
+width | style | color 
+
+h2 {
+  border: 2px solid blue;
+}
+
+// Border Sides 
+- To control an individual side of the box 
+- border-left
+- border-right
+- border-top
+- border-bottom
+
+// Border Radius 
+- used to round the corners of an element's outer border age.
+
+// Padding Property
+- padding-left
+- padding-right
+- padding-top
+- padding-bottom
+
+// Padding Shorthand 
+1. for all 4 Sides 
+2. top & bottom | left & right 
+3. top| left & right | bottom
+4. top | right | bottom | left 
+
+// Margin Property
+- To set spacing on the outside of border 
+- margin-left
+- margin-right
+- margin-top
+- margin-bottom
+
+// Margin Shorthand 
+
+// Inline v/s Block Element 
+
+// Display 
+- It sets whether an element is treated as a block or inline element and the layout used for its children.
+
+// Units in CSS
+Absolute       Relative 
+  px             %
+  pt             em
+  pc             rem
+  cm             ch
+  mm             vh 
+  in             vw + many more 
+
+// Percentages (%)
+- It is often used to define a size as relative to an element's parent object.
+
+eg: 
+width : 33.33% || relative to the parent 
+margin-left : 50% || relative to the parent size
+
+// Em -> parent /self
+
+// Drawback of Em 
+- Snowball effect in nested elements
+
+// Rem -> root 
+
