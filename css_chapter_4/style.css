@@ -1,0 +1,29 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(121, 171, 45, 0.315);
+  background-color: #4dff4dff;
+  /* transition-duration: 1s;
+  transition-delay: 1s; */
+  margin: 0 auto;
+  margin-top: 10px;
+  /* transition: margin-top 2s ease-in 0.3s; */
+  /* transform: rotate(45deg); */
+  /* transform: scale(02, 0.5); */
+  /* transform: translate(50px, 50px); */
+}
+
+#opacity {
+  opacity: 0;
+}
+
+#box3 {
+  transform: translateX(-50px);
+}
+#box4 {
+  transform: skew(30deg);
+}
+
+#mypic {
+  transform: rotate(30deg) translateX(150px);
+}

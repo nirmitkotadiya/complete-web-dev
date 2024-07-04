@@ -1,0 +1,33 @@
+// Alpha Channel
+- Sets the opacity for a color
+- Range: 0.0 to 1.0
+- Default: 1.0
+
+opacity : 0.5 
+
+Alpha - color 
+opacity - element 
+
+// Transitions 
+- Transitions enables you to define the transition between two states of an element.
+
+// Transition ShortHand
+
+transition: property duration timing-function delay;
+transition: margin-top2s ease-in 1s;
+
+// CSS Transform 
+- This property lets you rotate, scale, skew, or translate an element.
+
+i. rotate
+- trasform : rotate(45deg);
+
+ii. scale
+- transform: scale(1.5);
+
+iii. skew
+- transform: skew(30deg, 20deg);
+
+iv. translate
+- transform: translate(50px, 100px);
+
