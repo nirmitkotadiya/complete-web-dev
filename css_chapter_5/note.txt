@@ -32,6 +32,49 @@ What is Flexbox ?
 - flex-wrap : wrap;
 - flex-wrap : wrap-reverse;
 
+// Align Items 
+- Distributes our items along the cross axis 
+- it sets the Distribution of space between and around content items along a flexbox's cross-axis 
 
+- align-content : flex-start | flex-end | center 
+- align-content : space-between | space-around | evenly 
+- align-content : baseline; 
 
+// Align Self 
+- Align an item along the cross axis 
+
+- align-self : flex-start;
+- align-self : flex-end;
+- align-self : center;
+- align-self : baseline;
+
+// Flex Sizing 
+- flex-basis
+- It sets the initial main size of a flex item. 
+
+flex-basis : 100px;
+
+// flex-grow
+- It specifies how much of the flex container's remaining space should be assigned to the flex item's main size.
+
+flex-grow : 1
+
+flex-shrink 
+- It sets the flex shrink factor of a flex item.
+
+flex-shrink : 1
+
+// Flex Shorthand 
+
+- flex-grow | flex-shrink | flex-basis 
+flex : 2 2 100px;
+
+- flex-grow | flex-basis 
+flex : 2 100px; 
+
+- flex-grow (unitless)
+flex : 2; 
+
+- flex-basis 
+flex : 100px; 
 
