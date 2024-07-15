@@ -1,0 +1,135 @@
+// CSS Grid 
+- Setting a container's display to grid will make all children grid items.
+
+.container {
+  display: grid;
+}
+
+// Grid Model 
+- row lines 
+- column lines
+- grid lines : row lines and column lines
+- grid cells : the space between two row lines and two column lines
+- grid track : the space between two grid lines
+
+
+// Grid Template 
+- They define the lines & track Sizing
+
+grid-template-columns : 100px 100px 100px;
+grid-template-rows : 100px 100px 100px;
+
+// Grid Template 
+- Repeat is used to divide all available space 
+
+grid-template-rows: repeat(count,1fr)
+grid-template-columns: repeat(count,1fr)
+
+- 1 fr = 1 fraction of 100% width 
+
+grid-template-rows : repeat(2,1fr)
+grid-template-rows : 1fr 1fr 
+ 
+// Grid Gaps  
+- They define the gaps between the lines 
+
+row-gap : 10px;
+column-gap : 10px;
+grid-gap : rowGap columnGap 
+
+// Grid Columns 
+- Defines an item's starting & ending position inside the column
+
+grid-column-start : line_number
+grid-column-end : line_number 
+
+grid-column : start_col / end_col
+grid-column : start_col / span number 
+
+// Grid Rows 
+- Defines an item's starting & ending position inside the row 
+
+grid-row-start : line_number
+grid-row-end : line_number 
+
+grid-row : start_row / end_row
+grid-row : start_row / span number 
+
+// Common Properties
+-Horizontal 
+justify-items (container)
+justify-self (item) 
+
+- vertical
+align-items (container)
+align-self (item)
+
+place-items 
+place-self
+
+// CSS Animations 
+- To animate CSS elements 
+
+@keyframes myName{
+  from{ font-size : 20px;}
+  to{ font-size : 40px;}
+}
+
+- animation-name 
+- animation-duration 
+- animation-timing-function 
+- animation-delay 
+- animation-iteration-count 
+- animation-direction 
+
+// Animation Shorthand 
+animation : myName 2s linear 3s infinite normal
+ 
+% in Animation 
+
+@keyframes myName{
+  0%{ font-size : 20px; }
+  50%{ font-size : 30px; }
+  100%{ font-size : 40px; }
+}
+
+// Media Queries 
+- Help create a responsive website 
+
+- media features - width (of viewport)
+
+@media(width:400px){
+  div{
+    background-color : red;
+  }
+}
+
+@media(min-width:400px){
+}
+
+@media(max-width:400px){
+}
+
+// Media Queries 
+orientation (of viewport)
+
+@media (orientation : landscape){
+  div{
+    background-color : red;
+  }
+}
+
+// Create a responsive Pet Adoption Page 
+
+// z-index 
+- It decides the stack level of elements 
+- Overlapping elements with a larger z-index cover those with a smaller one. 
+
+z-index : auto (0)
+z-index : 1 / 2 / ...
+z-index : -1 / -2 / ...
+
+- position default or static not work z-index.
+
+
+
