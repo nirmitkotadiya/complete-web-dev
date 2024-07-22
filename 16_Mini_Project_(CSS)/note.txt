@@ -1,0 +1,25 @@
+// Designing a Website 
+
+// Basic Design Principles 
+- For better looking websites 
+1. color
+2. Typography 
+
+// Color Theory 
+- Meaning of colors 
+
+- Subtle Color Combination - Monochromatic 
+- Impactful Color Combination - Complementary 
+- High Contrast Combination - Triadic 
+
+// Typography 
+- Style & Appearance of Text 
+
+Font Families 
+- sans-serif 
+- serif
+- monospace 
+
+// Google Fonts 
+- https://fonts.google.com 
+
