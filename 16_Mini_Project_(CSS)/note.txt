@@ -23,3 +23,9 @@ Font Families
 // Google Fonts 
 - https://fonts.google.com 
 
+// Icons 
+- Font Awesome 
+- Google Icons 
+
+// CSS Project - Sidebar Menu 
+
